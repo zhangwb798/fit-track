@@ -1,6 +1,6 @@
 # projects
 
-这是一个基于 Express + Vite + TypeScript + Tailwind CSS 的全栈 Web 应用项目，由扣子编程 CLI 创建。
+这是一个基于 Express + Vite + TypeScript + Tailwind CSS 的全栈 Web 应用项目，由扣子 CLI 创建。
 
 **核心特性：**
 - 🚀 前端：Vite + TypeScript + Tailwind CSS
