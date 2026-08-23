@@ -410,7 +410,7 @@ import { Pool } from 'pg';
 const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 ```
 
-**Q: 如何部署？**
+**Q: 如何部署？(fuck)**
 
 1. 运行 `coze build` 构建前后端
 2. 将整个项目上传到服务器
