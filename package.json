@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "Vanilla TypeScript application with Express + Vite (HTML + CSS + TS + Node API)",
   "scripts": {
-    "build": "vite build ",
-    "dev": "bash ./scripts/dev.sh",
-    "preinstall": "npx only-allow pnpm",
-    "lint": "eslint",
-    "lint:build": "eslint . --quiet",
-    "start": "bash ./scripts/start.sh",
-    "ts-check": "tsc -p tsconfig.json",
-    "validate": "pnpm run --parallel '/^(ts-check|lint:build)$/'"
-  },
+  "build:front": "vite build",
+  "build:server": "tsup server/index.ts --out-dir dist-server --format cjs",
+  "build": "pnpm build:front && pnpm build:server",
+  "start": "node dist-server/index.js",
+  "preinstall": "npx only-allow pnpm"
+  }，
   "dependencies": {
     "@supabase/supabase-js": "2.95.3",
     "dotenv": "^17.2.3",
