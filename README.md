@@ -2,6 +2,11 @@
 
 这是一个简易健身记录器，可用浏览器或微信打开进行打卡打开（网址下方附有）
 
+![出错了](./assets/p1.png)
+![出错了](./assets/p2.png)
+![出错了](./assets/p3.png)
+
+
 
 
 这是一个基于 Express + Vite + TypeScript + Tailwind CSS 的全栈 Web 应用项目，由扣子 CLI 创建。
