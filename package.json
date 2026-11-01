@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Vanilla TypeScript application with Express + Vite (HTML + CSS + TS + Node API)",
   "scripts": {
-  "build:front": "vite build",
+  "build:front": "vite build --configLoader runner",
   "build:server": "tsup server/index.ts --out-dir dist-server --format cjs",
   "build": "pnpm build:front && pnpm build:server",
   "start": "node dist-server/index.js",
   "preinstall": "npx only-allow pnpm"
-  }，
+  },
   "dependencies": {
     "@supabase/supabase-js": "2.95.3",
     "dotenv": "^17.2.3",
@@ -42,3 +42,4 @@
     }
   }
 }
+
