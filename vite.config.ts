@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/fit-track/',
   server: {
     port: 5000,
     host: '0.0.0.0',
@@ -18,3 +19,4 @@ export default defineConfig({
     }
   },
 });
+
